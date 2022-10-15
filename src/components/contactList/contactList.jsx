@@ -3,6 +3,7 @@ import ContactListElement from 'components/contactElement/contactElement';
 import { getContacts } from 'redux/selectors';
 import { useSelector } from 'react-redux';
 import { getFilters } from 'redux/selectors';
+// 1
 
 const ContactList = () => {
   const { contacts } = useSelector(getContacts);
